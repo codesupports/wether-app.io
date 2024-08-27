@@ -1,7 +1,7 @@
 .weather-container {
   background-color: #003049;
   height: 100vh;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .weather-container .row {

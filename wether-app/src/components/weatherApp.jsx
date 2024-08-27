@@ -31,7 +31,7 @@ const WeatherApp = () => {
             {weather &&
               <>
                 <p className='mt-2 fw-bold fs-3'>{weather.name}</p>
-                <div className="weatherCity">{weather.main.temp} &#8451; </div>
+                <div className="weatherCity fs-3">{weather.main.temp} &#8451; </div>
                 <div className='image'>{<img src={`http://openweathermap.org/img/w/${weather.weather[0].icon}.png`} />}</div>
                 <div className="typeOfWeather">{weather.weather[0].description}</div>
               </>
